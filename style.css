@@ -1,0 +1,119 @@
+/* nav style */
+
+nav{
+    color: #4E47FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 30px;
+
+}
+
+button{
+    background-color: #4E47FF;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+   
+}
+h1{
+    font-weight: bold;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+/* main coding css */
+
+main  {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f6f7fb;
+}
+
+/* Top Section */
+.preview-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 10%;
+  background-color: #ffffff;
+  flex-wrap: wrap;
+}
+
+.preview-text {
+  max-width: 45%;
+}
+
+.preview-text h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 12px;
+}
+
+.preview-text p {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.launch-btn {
+  background-color: #5a49f8;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.preview-image img {
+  max-width: 100%;
+  width: 300px;
+  border-radius: 12px;
+}
+
+/* Stats Section */
+.stats-section {
+  background-color: #eef1ff;
+  padding: 50px 10%;
+  text-align: center;
+}
+
+.stats-title {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.stat-box h2 {
+  font-size: 32px;
+  color: #5a49f8;
+  margin-bottom: 5px;
+}
+
+.stat-box p {
+  font-size: 16px;
+  color: #555;
+}
